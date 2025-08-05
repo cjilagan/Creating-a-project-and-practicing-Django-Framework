@@ -9,7 +9,7 @@ def signup_view(request, *args, **kwargs):
 
 def about_view(request, *args, **kwargs):
     my_context = {
-        "my_text": "This is about us",
+        "title": "this is about us",
         "my_number": 9916957243,
         "my_list": [1321, 23213, 3321, 4412, 5123],
     }
