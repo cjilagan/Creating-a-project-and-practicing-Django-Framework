@@ -6,7 +6,7 @@ class Product(models.Model):
     description = models.TextField(blank=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
-    featured = models.BooleanField(null=False)
+    featured = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name

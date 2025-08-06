@@ -23,5 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
     path('signup/', signup_view, name='register'),
-    path('about/', about_view, name='about'),  # Assuming you want to use the signup_view for about page temporarily
+    path('about/', about_view, name='about'), 
 ]
